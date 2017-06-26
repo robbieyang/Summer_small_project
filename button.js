@@ -3,8 +3,4 @@ function button(x, y, width, height) {
     this.y = y;
     this.width = width;
     this.height = height;
-    this.render = function (ctx) {
-        ctx.fillStyle = "grey";
-        ctx.fillRect(x, y, width, height);
-    }
 }
